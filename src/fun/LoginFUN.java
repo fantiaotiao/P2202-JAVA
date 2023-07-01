@@ -29,7 +29,7 @@ public class LoginFUN {
                 }
                 break;
             case 1:
-                break;
+                return true;
         }
         return false;
     }

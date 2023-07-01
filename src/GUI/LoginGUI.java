@@ -48,7 +48,8 @@ public class LoginGUI {
                     userGUI.show();
                     LoginGUI.close();
                 }else if(islogin){
-
+                    AdminGUI.show();
+                    LoginGUI.close();
                 }else {
                     JOptionPane.showMessageDialog(login,"登录失败,请检查用户名或密码！");
                 }

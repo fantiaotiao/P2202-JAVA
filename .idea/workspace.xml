@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a02b89e-8c97-4c12-ac39-4ac4170ad449" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fun/BorrowFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/AdminGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/AdminGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/MyinforGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/MyinforGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fun/LoginFUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/LoginFUN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RobxTjTwlcWNFh2pYRN3ucAgUE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +86,7 @@
       <workItem from="1688133845433" duration="1564000" />
       <workItem from="1688142339679" duration="1523000" />
       <workItem from="1688173092781" duration="1124000" />
-      <workItem from="1688174495033" duration="1007000" />
+      <workItem from="1688174495033" duration="8492000" />
     </task>
     <servers />
   </component>
