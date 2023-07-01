@@ -15,7 +15,7 @@ public class JBDC_User {
      */
     public static List readUserData() {
          List<User> userList = new ArrayList<>();
-         Connection connection = JBDC_Control.getConnection(system.getMysql_admin(),system.getMysql_pass());
+         Connection connection = JBDC_Control.getConnection();
 
         try {
             Statement  statement = connection.createStatement();
@@ -68,7 +68,7 @@ public class JBDC_User {
      * @return boolean 返回是否成功
      */
     public static boolean addUserData(String user,String pass,String phone){
-        Connection connection = JBDC_Control.getConnection(system.getMysql_admin(),system.getMysql_pass());
+        Connection connection = JBDC_Control.getConnection();
         if (!user.contains("/'")){
             user="\""+user+"\"";
         }

@@ -15,7 +15,7 @@ public class JBDC_Admin {
      * @return boolean
      */// <--------------------------------------增----------------------------------------->
     public static boolean add(Admin admin) {
-        Connection connection = JBDC_Control.getConnection("root", "123");
+        Connection connection = JBDC_Control.getConnection();
         PreparedStatement statement = null;
         //定义sql语句
         int i;
@@ -51,7 +51,7 @@ public class JBDC_Admin {
      */// <--------------------------------------删----------------------------------------->
 //删除只要输入名字
     public boolean deletebyUSER(Object[] params) {
-        Connection connection = JBDC_Control.getConnection("root", "123");
+        Connection connection = JBDC_Control.getConnection();
         PreparedStatement statement = null;
         int i;
         try {
@@ -82,7 +82,7 @@ public class JBDC_Admin {
      * @return boolean
      */
     public boolean editbyUser(String user1, String user2) {
-        Connection connection = JBDC_Control.getConnection("root", "123");
+        Connection connection = JBDC_Control.getConnection();
         PreparedStatement statement = null;
         int i;
         try {
@@ -109,7 +109,7 @@ public class JBDC_Admin {
      */// <--------------------------------------读取---------------------------------------->
     public static List<Admin> readAdminDate()  {
         List<Admin> adminList = new ArrayList<>();
-        Connection connection = JBDC_Control.getConnection("root", "123");
+        Connection connection = JBDC_Control.getConnection();
         Statement statement = null;
         ResultSet rs=null;
         try {
@@ -117,15 +117,15 @@ public class JBDC_Admin {
             String sql = "SELECT * FROM admin";
             rs = statement.executeQuery(sql);
             while (rs.next()) {
-                adminList.add(new Admin(
-                        rs.getString(1),//ID
-                        rs.getString(2), //user
-                        rs.getString(3),//pass
-                        rs.getString(4),//phone
-                        rs.getString(5),//avatar
-                        rs.getString(6),//borrownum
-                        rs.getDate(7)//borrowbooklist
-                ));
+//                adminList.add(new Admin(
+//                        rs.getString(1),//user
+//                        rs.getString(2), //pass
+//                        rs.getString(3),//avatar
+//                        rs.getString(4),//phone
+//                        rs.getString(5),//a1
+//                        rs.getString(6),//a2
+//                        rs.getString(7)//a3
+//                ));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);

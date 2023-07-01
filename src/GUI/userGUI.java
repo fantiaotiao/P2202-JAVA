@@ -1,16 +1,11 @@
 package GUI;
 
-import javax.imageio.*;
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.*;
 
-import GUI.*;
-import fun.*;
 import classlib.*;
 import fun.Window;
 
@@ -52,8 +47,8 @@ public class userGUI{
                 super.mouseClicked(e);
             }
         });
-        String path = "C:\\Users\\27726\\Desktop\\英语书\\1b7bff103f01bd7d.jpg";
-        ImageIcon img = new ImageIcon(path);
+        String path = system.getDefaultavatar();
+
 
         avatar.setIcon(new ImageIcon(path));
 

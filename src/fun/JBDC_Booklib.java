@@ -13,11 +13,11 @@ public class JBDC_Booklib {
      */
     public static List readBookData() {             //查看·
         List<Book> BookList = new ArrayList<>();
-        Connection connection = JBDC_Control.getConnection("root","123");
+        Connection connection = JBDC_Control.getConnection();
 
         try {
             Statement statement = connection.createStatement();
-            String sql = "SELECT * FROM user";
+            String sql = "SELECT * FROM booklib";
             ResultSet rs = statement.executeQuery(sql);
             while (rs.next()){
                 BookList.add(new Book(
@@ -56,6 +56,7 @@ public class JBDC_Booklib {
     public static Book querryBookbyID(int id) {                 //查询
         List<Book> BookList =  readBookData();
         for (Book book:BookList){
+
             if (book.getid()==id){
 
                 return book;
@@ -71,7 +72,7 @@ public class JBDC_Booklib {
      * @return boolean
      */
     public static boolean deleteBook(int id){                     //删除
-    Connection connection = JBDC_Control.getConnection("root","123");
+    Connection connection = JBDC_Control.getConnection();
 
     try {
         Statement statement = connection.createStatement();
@@ -97,11 +98,11 @@ public class JBDC_Booklib {
      * @return boolean
      */
     public static boolean editBookData(int bookid,Book book) {                     //修改
-        Connection connection = JBDC_Control.getConnection("root","123");
+        Connection connection = JBDC_Control.getConnection();
 
         try {
             Statement statement = connection.createStatement();
-            String sql = "UPDATE book SET bookname = '" + book.getbookname() + "', author = '" + book.getauthor() + "', describe = '" + book.getdescribe() +
+            String sql = "UPDATE booklib SET bookname = '" + book.getbookname() + "', author = '" + book.getauthor() + "', describe = '" + book.getdescribe() +
                     "', ISBN = '" + book.getISBN() + "', score = " + book.getscore() + ", price = " + book.getprice() + ", state = " + book.getstate() +
                     " WHERE id = " + book.getid();
             int count =statement.executeUpdate(sql);
@@ -122,7 +123,7 @@ public class JBDC_Booklib {
      * @return boolean
      */
     public static boolean addBookData(Book book) {                                //添加
-        Connection connection = JBDC_Control.getConnection("root","123");
+        Connection connection = JBDC_Control.getConnection();
 
         try {
             Statement statement = connection.createStatement();
@@ -139,5 +140,16 @@ public class JBDC_Booklib {
             throw new RuntimeException(e);
         }
         return false;
+    }
+
+    public static List querryBookbyName(String searchtext) {
+        List<Book> BookList =  readBookData();
+        for (Book book:BookList){
+            if (book.getbookname().contains(searchtext)){
+
+                BookList.add(book);
+            }
+        }
+        return BookList;
     }
 }

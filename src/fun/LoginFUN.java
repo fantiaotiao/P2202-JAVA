@@ -31,7 +31,17 @@ public class LoginFUN {
                 }
                 break;
             case 1:
-                return true;
+                Admin adminlogin = JBDC_Admin.queryAdminByPhone(user);
+
+                if (adminlogin!=null){
+                    if (adminlogin.getPass().equals(pass)){
+                        system.setUser(adminlogin.getUser());
+                        system.setType(1);
+                        System.out.println(adminlogin.getUser()+"登录成功");
+                        return true;
+                    }
+                }
+
         }
         return false;
     }

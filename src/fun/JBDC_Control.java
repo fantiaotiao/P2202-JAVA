@@ -1,6 +1,7 @@
 package fun;
 import java.sql.*;
-import java.util.Scanner;
+import classlib.*;
+
 
 public class JBDC_Control {
     static {
@@ -12,13 +13,13 @@ public class JBDC_Control {
         }
     }
     /**通用连接数据库函数
-     * @param user 数据库用户
-     * @param pass 数据库密码
+     *
      * @return {@link Connection}
      */
-    public static Connection getConnection(String user ,String pass) {
+    public static Connection getConnection() {
         String url = "jdbc:mysql://localhost:3306/library";
-
+        String user=system.getMysql_admin();
+        String pass=system.getMysql_pass();
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(url,user,pass);    //2.得到连接

@@ -5,7 +5,22 @@ import java.util.function.Function;
 public class system {
     static String mysql_admin = "root";
     static String mysql_pass = "123456";
+    static String Defaultavatar="D:\\Project\\Project practice\\P2202\\P2202-JAVA\\src\\bin\\avatar.jpg";
     static String user;
+    public static String format(String s){
+        if (!s.contains("/'")){
+            s="\""+s+"\"";
+        }
+        return s;
+    }
+    public static String getDefaultavatar() {
+        return Defaultavatar;
+    }
+
+    public static void setDefaultavatar(String defaultavatar) {
+        Defaultavatar = defaultavatar;
+    }
+
     static int type;
 
     public static void setMysql_admin(String mysql_admin) {
