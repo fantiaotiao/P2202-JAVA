@@ -1,6 +1,6 @@
 package fun;
 
-import classlib.User;
+import classlib.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -23,6 +23,8 @@ public class LoginFUN {
 
                 if (userlogin!=null){
                     if (userlogin.getPass().equals(pass)){
+                        system.setUser(userlogin.getUser());
+                        system.setType(0);
                         System.out.println(userlogin.getUser()+"登录成功");
                         return true;
                     }

@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a02b89e-8c97-4c12-ac39-4ac4170ad449" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlib/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlib/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/RetrieveFUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/RetrieveFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlib/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fun/JBDC_Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fun/UserFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/MyinforGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MyinforGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/UserGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/UserGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/UserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/UserGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlib/system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlib/system.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fun/LoginFUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/LoginFUN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +88,7 @@
       <workItem from="1688173092781" duration="1124000" />
       <workItem from="1688174495033" duration="8492000" />
       <workItem from="1688185350187" duration="5270000" />
+      <workItem from="1688193294140" duration="4347000" />
     </task>
     <servers />
   </component>

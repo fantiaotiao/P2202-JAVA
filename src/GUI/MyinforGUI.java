@@ -10,8 +10,9 @@ public class MyinforGUI {
     String username;
     private JTextPane userTextPane;
     private JPasswordField passwordField1;
-    public MyinforGUI(String username){
+    public MyinforGUI(int type,String username){
         this.username=username;
+
         avatar.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -25,9 +26,10 @@ public class MyinforGUI {
             }
         });
     }
-    public static void show() {
+    public static void show(int type,String username) {
+
         JFrame frame = new JFrame("MyinforGUI");
-        frame.setContentPane(new MyinforGUI("uuu").Myinfor);
+        frame.setContentPane(new MyinforGUI(type,username).Myinfor);
         frame.pack();
         frame.setVisible(true);
         Window.tocenter(frame);
