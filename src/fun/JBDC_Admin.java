@@ -117,15 +117,15 @@ public class JBDC_Admin {
             String sql = "SELECT * FROM admin";
             rs = statement.executeQuery(sql);
             while (rs.next()) {
-//                adminList.add(new Admin(
-//                        rs.getString(1),//user
-//                        rs.getString(2), //pass
-//                        rs.getString(3),//avatar
-//                        rs.getString(4),//phone
-//                        rs.getString(5),//a1
-//                        rs.getString(6),//a2
-//                        rs.getString(7)//a3
-//                ));
+                adminList.add(new Admin(
+                        rs.getString(1),//user
+                        rs.getString(2), //pass
+                        rs.getString(3),//avatar
+                        rs.getString(4),//phone
+                        rs.getString(5),//a1
+                        rs.getString(6),//a2
+                        rs.getString(7)//a3
+                ));
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -137,6 +137,9 @@ public class JBDC_Admin {
         return adminList;
     }
 
+    public static void main(String[] args) {
+        System.out.println(readAdminDate().get(0).getPhone());
+    }
     /**
      * 查询
      *

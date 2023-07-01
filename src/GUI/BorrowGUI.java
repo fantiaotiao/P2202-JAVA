@@ -45,7 +45,7 @@ public class BorrowGUI {
 
     public BorrowGUI(){
         GUIShow(current);
-
+        this.BorrowUserID = system.getUser();
 
 
         button4.addActionListener(new ActionListener() {
@@ -136,9 +136,7 @@ public class BorrowGUI {
                 Data returnDtae = null;
                 if (BorrowFun.borrowBook(BookID,BorrowUserID)){
                     B4.setEnabled(false);
-                    Book newstatus = JBDC_Booklib.querryBookbyID(BookID);
-                    newstatus.setState(1);
-                    JBDC_Booklib.editBookData(BookID,newstatus);
+
                     B4.setText("已借阅");
                 }else{
                     JOptionPane.showMessageDialog(null,"借阅失败");
@@ -153,9 +151,7 @@ public class BorrowGUI {
                 Data returnDtae = null;
                 if (BorrowFun.borrowBook(BookID,BorrowUserID)){
                     B5.setEnabled(false);
-                    Book newstatus = JBDC_Booklib.querryBookbyID(BookID);
-                    newstatus.setState(1);
-                    JBDC_Booklib.editBookData(BookID,newstatus);
+
                     B5.setText("已借阅");
                 }else{
                     JOptionPane.showMessageDialog(null,"借阅失败");

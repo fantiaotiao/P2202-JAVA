@@ -22,6 +22,7 @@ public class ReturnFun {
         if (index>record.size()){
             return "";
         }
+
         Borrowrecord thisrecord = record.get(index-1);
         int bookid = thisrecord.getBorrowBookID();
         String bookname = JBDC_Booklib.querryBookbyID(bookid).getbookname();
@@ -53,9 +54,7 @@ public class ReturnFun {
         }
         Borrowrecord thisrecord = record.get(index-1);
         int bookid = thisrecord.getBorrowBookID();
-        Book updateState=JBDC_Booklib.querryBookbyID(bookid);
-        updateState.setState(0);
-        boolean flag = JBDC_Booklib.editBookData(bookid,updateState);
+        boolean flag = JBDC_Booklib.Updatestatus(bookid,0);
         JBDC_Borrowlib.deletebyID(index);
         return flag;
     }

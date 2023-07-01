@@ -5,23 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a02b89e-8c97-4c12-ac39-4ac4170ad449" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fun/ReturnFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/Bookmanagement.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/Bookmanagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/NewBook.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/NewBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/OverduemanageGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/OverduemanageGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/UaerManage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/UaerManage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/AdminGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AdminGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/AdminGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AdminGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/MyinforGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MyinforGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/MyinforGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MyinforGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ReturnGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ReturnGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ReturnGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ReturnGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/UserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/userGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlib/system.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlib/system.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/BorrowFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/BorrowFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/LoginGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/RegisterDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/RegisterDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SetquestionDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetquestionDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SetquestionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetquestionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/userGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/userGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlib/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlib/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Borrowlib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Borrowlib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Control.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fun/JBDC_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fun/LoginFUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/LoginFUN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fun/ReturnFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/ReturnFun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
@@ -102,21 +108,13 @@
       <workItem from="1688185350187" duration="5270000" />
       <workItem from="1688193294140" duration="4347000" />
       <workItem from="1688202022931" duration="13446000" />
+      <workItem from="1688219448343" duration="4083000" />
+      <workItem from="1688223686623" duration="1756000" />
+      <workItem from="1688225548894" duration="1814000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/fun/LoginFUN.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

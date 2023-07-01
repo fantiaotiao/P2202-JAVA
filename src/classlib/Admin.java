@@ -10,11 +10,8 @@ public class Admin {
     String phone;
     String A1;
     String A2;
-    java.util.Date A3;
+    String A3;
 
-    public Admin() {
-
-    }
 
     public String getUser() {
         return user;
@@ -64,15 +61,15 @@ public class Admin {
         A2 = a2;
     }
 
-    public java.util.Date getA3() {
+    public String getA3() {
         return A3;
     }
 
-    public void setA3(Date a3) {
+    public void setA3(String a3) {
         A3 = a3;
     }
 
-    public Admin(String user, String pass, String avator, String phone, String a1, String a2, Date a3) {
+    public Admin(String user, String pass, String avator, String phone, String a1, String a2, String a3) {
         this.user = user;
         this.pass = pass;
         this.avator = avator;

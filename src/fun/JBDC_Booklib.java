@@ -90,6 +90,26 @@ public class JBDC_Booklib {
     return false;
 }
 
+
+    public static boolean Updatestatus(int bookid,int status){
+        Connection connection = JBDC_Control.getConnection();
+        Book findbook = JBDC_Booklib.querryBookbyID(bookid);
+        try {
+        if (findbook!=null){
+            Statement  statement = null;
+
+            statement = connection.createStatement();
+            String sql = "UPDATE booklib SET state= '"+status+"' where id='"+bookid+"'";
+            ResultSet rs = statement.executeQuery(sql);
+            if (statement.executeUpdate(sql)>1){
+                return true;
+            }
+        }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return false;
+    }
     /**
      * 编辑图书数据
      *

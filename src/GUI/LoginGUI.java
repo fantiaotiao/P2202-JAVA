@@ -5,7 +5,6 @@ import fun.LoginFUN;
 import fun.Window;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -27,7 +26,7 @@ public class LoginGUI {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                RegisterDialog dialog = new RegisterDialog();
+                RegisterDialog dialog = new RegisterDialog("",0);
                 dialog.pack();
                 dialog.setVisible(true);
                 System.exit(0);

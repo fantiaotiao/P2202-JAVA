@@ -50,7 +50,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <component id="cab69" class="javax.swing.JLabel">
+          <component id="cab69" class="javax.swing.JLabel" binding="Myinfor">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -60,7 +60,7 @@
               <text value="个人账号"/>
             </properties>
           </component>
-          <component id="ca303" class="javax.swing.JLabel">
+          <component id="ca303" class="javax.swing.JLabel" binding="BookM">
             <constraints>
               <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -70,7 +70,7 @@
               <text value="书籍管理"/>
             </properties>
           </component>
-          <component id="2f7b1" class="javax.swing.JLabel">
+          <component id="2f7b1" class="javax.swing.JLabel" binding="UserM">
             <constraints>
               <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -80,7 +80,7 @@
               <text value="用户管理"/>
             </properties>
           </component>
-          <component id="44e1c" class="javax.swing.JLabel">
+          <component id="44e1c" class="javax.swing.JLabel" binding="OutM">
             <constraints>
               <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>

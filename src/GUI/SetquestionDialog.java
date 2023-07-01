@@ -1,21 +1,28 @@
 package GUI;
 
 import javax.swing.*;
+import javax.swing.event.AncestorEvent;
+import javax.swing.event.AncestorListener;
 import java.awt.event.*;
 
 public class SetquestionDialog extends JDialog {
     private JPanel contentPane;
     private JButton back;
     private JButton buttonCancel;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
-    private JTextField textField5;
+    private JTextField A1;
+    private JTextField A2;
+    private JTextField Year;
+    private JTextField Mounth;
+    private JTextField Day;
     private JTextField textField6;
+    private JLabel R1;
+    private JLabel R2;
+    private JLabel R3;
+    private JLabel R4;
+    String phone ;
 
-    public SetquestionDialog() {
-
+    public SetquestionDialog(String phone) {
+        this.phone=phone;
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(back);
@@ -46,6 +53,7 @@ public class SetquestionDialog extends JDialog {
                 onCancel();
             }
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+
     }
 
 
@@ -56,10 +64,16 @@ public class SetquestionDialog extends JDialog {
     }
 
     private void okButton(){
-        RegisterDialog dialog = new RegisterDialog();
+        RegisterDialog dialog = new RegisterDialog(this.phone,1);
         dialog.pack();
         dialog.setVisible(true);
-        System.exit(0);
         this.setVisible(false);
+
+
+    }
+    public static void main(String[] args) {
+        SetquestionDialog dialog = new SetquestionDialog("11111111111");
+        dialog.pack();
+        dialog.setVisible(true);
     }
 }

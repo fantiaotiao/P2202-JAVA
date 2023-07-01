@@ -10,6 +10,7 @@ import classlib.*;
 import fun.Window;
 
 public class userGUI{
+
     private JButton exitButton;
     private JPanel user;
 
@@ -22,6 +23,7 @@ public class userGUI{
     private JButton ReturnButton;
     private JTabbedPane tabbedPane2;
     public userGUI(){
+
         BorrowButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

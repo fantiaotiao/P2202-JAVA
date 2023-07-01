@@ -97,7 +97,7 @@
                   <text value="你的名字是"/>
                 </properties>
               </component>
-              <component id="73e6e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+              <component id="73e6e" class="javax.swing.JTextField" binding="A1">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -113,7 +113,7 @@
                   <text value="你最敬仰的一个人"/>
                 </properties>
               </component>
-              <component id="6dbd6" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+              <component id="6dbd6" class="javax.swing.JTextField" binding="A2">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -137,7 +137,7 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="37e76" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                  <component id="37e76" class="javax.swing.JTextField" binding="Year">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -154,7 +154,7 @@
                       <text value="-"/>
                     </properties>
                   </component>
-                  <component id="af7e" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                  <component id="af7e" class="javax.swing.JTextField" binding="Mounth">
                     <constraints>
                       <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -171,7 +171,7 @@
                       <text value="-"/>
                     </properties>
                   </component>
-                  <component id="ff7dd" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                  <component id="ff7dd" class="javax.swing.JTextField" binding="Day">
                     <constraints>
                       <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -218,7 +218,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="8e5d2" class="javax.swing.JLabel">
+              <component id="8e5d2" class="javax.swing.JLabel" binding="R3">
                 <constraints>
                   <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -226,7 +226,7 @@
                   <text value="Label"/>
                 </properties>
               </component>
-              <component id="5d164" class="javax.swing.JLabel">
+              <component id="5d164" class="javax.swing.JLabel" binding="R4">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -234,7 +234,7 @@
                   <text value="Label"/>
                 </properties>
               </component>
-              <component id="aa5c1" class="javax.swing.JLabel">
+              <component id="aa5c1" class="javax.swing.JLabel" binding="R2">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -242,7 +242,7 @@
                   <text value="Label"/>
                 </properties>
               </component>
-              <component id="678bc" class="javax.swing.JLabel">
+              <component id="678bc" class="javax.swing.JLabel" binding="R1">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
