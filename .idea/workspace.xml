@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a02b89e-8c97-4c12-ac39-4ac4170ad449" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fun/BorrowFun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/RegisterDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/RegisterDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ReturnGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ReturnGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetquestionDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetquestionDialog.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetquestionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetquestionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/BorrowGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +77,8 @@
       <workItem from="1688111211373" duration="7735000" />
       <workItem from="1688133845433" duration="1564000" />
       <workItem from="1688142339679" duration="1523000" />
+      <workItem from="1688173092781" duration="1124000" />
+      <workItem from="1688174495033" duration="1007000" />
     </task>
     <servers />
   </component>
