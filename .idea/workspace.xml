@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a02b89e-8c97-4c12-ac39-4ac4170ad449" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GUI/AccountmanageGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/AccountmanageGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/BooklistAddGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/BooklistAddGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/RetrieveGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/RetrieveGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fun/RetrieveFUN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlib/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlib/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/JBDC_Booklib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fun/RetrieveFUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fun/RetrieveFun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
